@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Laboratorio de Flor
+PROJECTNAME=Programacion4
 
 # Active Configuration
 DEFAULTCONF=Debug
