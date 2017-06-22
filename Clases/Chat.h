@@ -16,7 +16,7 @@ public:
     Chat(const Chat& orig);
     virtual ~Chat();
 private:
-    list<Mensaje> Mensajes;
+    list<Mensaje*> Mensajes;
 };
 
 #endif
