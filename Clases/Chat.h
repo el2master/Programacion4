@@ -8,6 +8,11 @@
 #include <stdio.h>
 #include <list>
 #include "../Clases/Mensaje.h"
+#include "../Clases/Propiedad.h"
+#include "Inmobiliaria.h"
+#include "Interesado.h"
+
+
 using namespace std;
 
 class Chat {
@@ -17,9 +22,9 @@ public:
     virtual ~Chat();
 private:
     list<Mensaje*> Mensajes;
-    Propiedad* Propiedad;
-    Inmobiliaria* Inmobiliaria;
-    Interesado* Interesado;
+    Propiedad* PropiedadC;
+    Inmobiliaria* InmobiliariaC;
+    Interesado* InteresadoC;
 };
 
 #endif

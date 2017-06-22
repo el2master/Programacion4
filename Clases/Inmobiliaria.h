@@ -6,10 +6,11 @@
 #include <iostream>
 #include <typeinfo>
 #include <stdio.h>
+#include "Usuario.h"
 
 using namespace std;
 
-class Inmobiliaria : public Usuario {
+class Inmobiliaria: public Usuario{
 public:
     Inmobiliaria();
     Inmobiliaria(const Inmobiliaria& orig);

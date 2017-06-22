@@ -6,6 +6,7 @@
 #include <iostream>
 #include <typeinfo>
 #include <stdio.h>
+#include "Usuario.h"
 
 using namespace std;
 

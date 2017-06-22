@@ -17,8 +17,8 @@ public:
     virtual ~Mensaje();
 private:
     string texto;
-    Fecha Fecha;
-    Hora Hora;
+    Fecha FechaM;
+    Hora HoraM;
 };
 
 #endif
