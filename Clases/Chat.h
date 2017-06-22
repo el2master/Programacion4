@@ -17,6 +17,9 @@ public:
     virtual ~Chat();
 private:
     list<Mensaje*> Mensajes;
+    Propiedad* Propiedad;
+    Inmobiliaria* Inmobiliaria;
+    Interesado* Interesado;
 };
 
 #endif
