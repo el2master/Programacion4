@@ -15,30 +15,6 @@ public:
     Mensaje();
     Mensaje(const Mensaje& orig);
     virtual ~Mensaje();
-
-    void SetHora(Hora Hora) {
-        this->Hora = Hora;
-    }
-
-    Hora GetHora() const {
-        return Hora;
-    }
-
-    void SetFecha(Fecha Fecha) {
-        this->Fecha = Fecha;
-    }
-
-    Fecha GetFecha() const {
-        return Fecha;
-    }
-
-    void SetTexto(string texto) {
-        this->texto = texto;
-    }
-
-    string GetTexto() const {
-        return texto;
-    }
 private:
     string texto;
     Fecha Fecha;
