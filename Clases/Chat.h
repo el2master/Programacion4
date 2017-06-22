@@ -17,7 +17,6 @@ public:
     virtual ~Chat();
 private:
     list<Mensaje> Mensajes;
-    
 };
 
 #endif
